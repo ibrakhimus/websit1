@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+
+#home__hero {
+  height: calc(100vh - 78px);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.95;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav__link--anchor-logo {
+  margin-right: 12px;
+}
+
+.nav__container {
+  width: 100%;
+  padding: 24px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  font-weight: 300;
+}
+
+.link__hover-effect {
+  transition: all 0.1s ease;
+}
+
+.link__hover-effect:hover {
+  color: gold;
+}
+
+.get__started--button {
+  border: 1px solid white;
+  margin-right: 4px;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.styl-1 {
+  background-color: black;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* 
+HERO
+*/
+
+.home__hero--sub-button {
+  border: 1px solid white;
+  margin-right: 4px;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.hero__row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.home__hero--h1 {
+  padding: 128px 0;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: -5px;
+}
+
+.home__hero--sub-h3 {
+  font-weight: 300;
+  width: 40%;
+  margin-bottom: 24px;
+}
+
+.subhero-animation {
+  width: 181px;
+  height: 267px;
+  object-fit: contain;
+  position: absolute;
+  top: -50px;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+._1 {
+  width: 244px;
+  height: 295px;
+  right: -20%;
+  top: -12%;
+}
+
+._2 {
+  width: 300px;
+  height: 253px;
+  top: 0%;
+  bottom: auto;
+  left: -25%;
+  right: auto;
+}
+
+._3 {
+  width: 249px;
+  height: 245px;
+  top: auto;
+  bottom: -67px;
+  left: 26%;
+  right: auto;
+}
+
+.book-a-call-header {
+  width: 100%;
+  padding-top: 19px;
+}
+
+.bac-header-inner {
+  width: 100%;
+  max-width: 1376px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.bac-heading {
+  line-height: 52px;
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+  margin-bottom: 38px;
+}
+
+.bac-how-it-works {
+  padding-top: 45px;
+}
+
+.bac-how-it-works-heading {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 300;
+  letter-spacing: -1.2px;
+}
+
+.bac-how-it-works-inner {
+  width: 100%;
+  display: flex;
+  padding-top: 47px;
+}
+
+.bac-how-it-works-item {
+  width: 100%;
+  max-width: 337px;
+}
+
+.bac-how-it-works-item:last-child {
+  margin-right: 0;
+}
+
+.bac-how-it-works-item-top {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bac-how-it-works-item-image-wrapper {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #1d3f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bac-how-it-works-item-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+  max-width: 280px;
+}
+
+.deco-line {
+  width: 100%;
+  height: 56px;
+  max-width: 300px;
+  background-image: url(./assets/decoline.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
